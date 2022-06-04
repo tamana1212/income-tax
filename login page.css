@@ -1,0 +1,11 @@
+body{
+	background-image:url("img2.jpeg");
+	background-size: 1370px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+h1{text-align: left;padding: 40px; padding-top: 20px; color:black;}
+body{padding:10px 10px 10px 10px;
+color:black; padding: 200px 400px;}	
+
+nav{width: 10vw ; height: 10vh; display: inline; align-items: normal ; right;padding: 40px ; color: black; }

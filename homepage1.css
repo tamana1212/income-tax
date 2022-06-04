@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.site-content{
+	height: 100vh;
+	width: 100vw;
+	background-image:url("img5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+*{
+	font-family: Aclonica;
+	color: white;
+}
+nav{
+	width: 15vw;
+	height: 15vh;
+	display: flex;
+	align-items: center;
+}
+.brand{
+	font-size: 7vw;
+	font-family: Berkshire Swash;
+	margin-left: 2vw;
+	margin-top: 3vw;
+	margin-right: 19vw;
+	color: orange;
+}
+.nav-item{
+	margin-top: 6vh;
+	padding-left: 120px;
+	font-size: 1vw;
+	text-decoration: none;
+}
+.container{
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%
+}
+.navigation{
+	float: left;
+	font-family:aclonica;
+    font-size: 30px;
+
+}
+.navigation ul{
+	margin: 50px;
+	padding:30px;
+	list-style-type:asterisks;
+}
+.navigation li a{
+	display:block;
+	padding:20px;
+	width:380px;
+	text-decoration:none;
+}
+.container{
+	text-align: right;
+	padding-right: 150px;
+	padding-top: 100px;
+}
+.container h1,h2,h3{
+	padding: 0;
+	margin: 1;
+	text-shadow: 50px 50px 50px 50px blue;
+}
+.content h2{
+	font-size: 3vw;
+	color: white;
+	padding-right: 30px
+}
+.content h1{
+	font-size: 6vw;
+	color: white;
+	padding-right: 70px
+}
+.content h3{
+	font-size: 3vw;
+	color: white;
+}
+button{
+	padding: 2vh 2vw;
+	margin: 2vh 2vw;
+	border-radius: 50px;
+	border: 2px solid orange;
+	background-color: transparent;
+	box-shadow: 0px 15px 20px black;
+	font-size: 1.3vw; 
+}
+button:hover{
+	background-color: black;
+	cursor: pointer;
+	text-decoration: none;
+}

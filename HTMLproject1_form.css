@@ -1,0 +1,12 @@
+body{
+	background-image:url("img1.jpg");
+	background-size: 1366px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+
+}
+h1{text-align: left;padding: 40px; padding-top: 20px; color:black;}
+form{padding:10px 10px 10px 10px;
+color:black;}
+line-height: 50px}
+textarea{border: solid white 20px; width:400px;height:100px;}

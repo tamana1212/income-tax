@@ -1,0 +1,48 @@
+
+
+    <html>
+    <head>
+    <title>
+    Login page
+    </title>
+    </head>
+    <body>
+      <header>
+    <div class="site-content">
+      <nav>
+        <a class="brand">$</a>
+        <a class="nav-item" href="aboutus.html">ABOUT US</a>&nbsp; &nbsp; 
+        <a class="nav-item" href="contactus.html">CONTACT US</a> &nbsp; &nbsp;
+        <a class="nav-item" href="help.html">HELP</a>
+                        
+             </nav>
+           </div>
+         </header>
+      <link rel="stylesheet" href="login page.css">
+    <h1>
+    LOGIN
+    </h1>
+    <form name="login">
+    Username<input type="text" name="userid"/><br>
+    Password<input type="password" name="pswrd"/><br>
+    <input type="button" onclick="check(this.form)" value="Login"/>
+    <input type="reset" value="Cancel"/>
+    <input type="button" onclick=location.href='registerform.html' value="create account"/>
+    </form>
+    <script language="javascript">
+    function check(form)/*function to check userid & password*/
+    {
+     /*the following code checkes whether the entered userid and password are matching*/
+     if(form.userid.value == "Sufyan" && form.pswrd.value == "Sufyan")
+      {
+        window.open('homepage1.html')/*opens the target page while Id & password matches*/
+      }
+     else
+     {
+       alert("Error Password or Username")/*displays error message*/
+      }
+    }
+    </script>
+    </body>
+    </html>
+
